@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
 
     <style>
-
-        *{
+        * {
             font-family: Roboto;
         }
 
-        .card{
+        .card {
             border: 1px solid gray;
             width: 20%;
             border-radius: 15px;
@@ -21,27 +23,34 @@
             padding: 30px;
             box-shadow: 4px 4px 5px 0px #00000077;
             box-sizing: border-box;
+            background-color: white;
         }
 
-        body{
+        body {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+
+            /* background-image: linear-gradient(45deg, blue, skyblue, white, lightgreen, red);
+            background-image: url("https://th.bing.com/th/id/R.609d6daa3eb10837370d7e7e2b758d77?rik=uJM2Svon1nvwBA&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fMinimalist-HD-Backgrounds.jpg&ehk=K8NydDBPADD3%2bES7BSp91l8iiTGiREL%2fnITWq3ZhvOc%3d&risl=&pid=ImgRaw&r=0")
+             */
+             background-image: linear-gradient(45deg, rgba(0, 0, 255, 0.132), rgba(135, 207, 235, 0.17), white),url("https://th.bing.com/th/id/R.609d6daa3eb10837370d7e7e2b758d77?rik=uJM2Svon1nvwBA&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fMinimalist-HD-Backgrounds.jpg&ehk=K8NydDBPADD3%2bES7BSp91l8iiTGiREL%2fnITWq3ZhvOc%3d&risl=&pid=ImgRaw&r=0");
+             
         }
 
-        .form-title{
+        .form-title {
             text-align: center;
             font-size: 25px;
         }
 
-        label{
+        label {
             display: block;
             margin-bottom: 4px;
             font-size: 15px;
         }
 
-        .text-input{
+        .text-input {
             width: 100%;
             padding: 10px;
             border-radius: 5px;
@@ -50,7 +59,7 @@
             margin-bottom: 30px;
         }
 
-        .submit-btn{
+        .submit-btn {
             width: 100%;
             padding: 10px;
             border-radius: 5px;
@@ -59,11 +68,28 @@
             color: white;
         }
 
+        .link {
+            color: blueviolet;
+            text-decoration: none;
+            display: block;
+        }
+
+        .forgot-link {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+
+        .signup-link {
+            text-align: center;
+            margin-top: 20px;
+            font-weight: bold;
+        }
     </style>
 
 </head>
+
 <body>
-    
+
     <div class="card">
         <h2 class="form-title">Login Form</h2>
 
@@ -75,7 +101,7 @@
             <input class="text-input" type="password">
 
             <a href="#" class="link forgot-link">Forgot Password?</a>
-            
+
             <button class="submit-btn">Submit</button>
 
             <a href="#" class="link signup-link">Not registered yet? Signup Now</a>
@@ -84,4 +110,5 @@
     </div>
 
 </body>
+
 </html>
