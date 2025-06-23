@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        *{
+            font-family: Roboto;
+        }
+        body{
+            margin: 0px;
+        }
+        .card{
+            /* border: 2px solid red; */
+            display: grid;
+            grid-template-columns: 2fr 3fr;
+            width: 80%;
+            margin: auto;
+            margin-top: 10vh;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 3px 3px 5px 0 rgb(87, 84, 84);
+            
+        }
+        .contact-info{
+            /* border: 2px solid yellow; */
+            padding: 40px;
+            background-color: blueviolet;
+            color: white;
+
+        }
+        .contact-form{
+            /* border: 2px solid green; */
+            padding: 40px;
+
+        }
+        .text-input{
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        .social-links{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            
+        }
+        .social-links p{
+            margin: 0;
+        }
+        .submit-btn{
+            background-color: blueviolet;
+            color: white;
+            margin-left: auto;
+            display: block;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+</head>
+<body>
+    <div class="card">
+        <div class="contact-info">
+
+            <h2>Contact us here</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,gtyhhghg</p>
+            <p>Call us on : +91 6384673863</p>
+            <p>Timings : 10:00am - 7 pm</p>
+            <h4>Follows Us on</h4>
+            <div class="social-links">
+                <p>Facebook </p>
+                <p>Instagram </p>
+                <p>Facebook </p>
+            </div>
+
+        </div>
+        <div Class="contact-form">
+
+            <h2>Contact form</h2>
+            <form>
+                <label for="">Name</label>
+                <input class="text-input" type="text">
+                <label for="">Email Address</label>
+                <input class="text-input" type="text">
+                <label for="">Phone no.</label>
+                <input class="text-input" type="text">
+                <label for="">Phone no.</label>
+                
+                <textarea class="text-input" rows="5"></textarea>
+                <button class="submit-btn">Submit details</button>
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
